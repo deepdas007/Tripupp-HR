@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainDarkGrey: #3f3f3f;
+    --headingBlue: #274589;
+    --contentGrey: #565656;
+    --buttonColor: #e80637;
+}
+
+body {  
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+    width: 90%;
+}
+
+nav {
+    background-color: none;
+}
+
+.container-fluid .navbar-collapse .ml-auto li{
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.container-fluid .navbar-collapse .ml-auto li a {
+    color: black;
+}
+
+.container-fluid .mast-head {
+    position: relative;
+    min-height: 60vh;
+}
+
+.container-fluid .mast-head .mast-head-info {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.container-fluid .mast-head .mast-head-info h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: var(--mainDarkGrey);
+}
+
+.container-fluid .mast-head .mast-head-info button {
+    margin-top: 10%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: var(--buttonColor);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 15px;
+}
+
+.video-section .video video {
+    margin-top: 15%;
+    border: 20px solid transparent;
+    border-radius: 30px;
+    background: linear-gradient(to right, white, white), linear-gradient(45deg, #56667A , #9A275A); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    outline: none;
+}
+
+.cards-section {
+    margin-top: 10%;
+}
+
+.cards-section a {
+    text-decoration: none;
+    
+}
+
+.pros-card {
+    display: inline-block;
+}
+
+.pros-card .container-fluid .mb-3{
+    border-radius: 0 30px 30px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.pros-card .container-fluid .card-body h5{
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.about-section {
+    margin-top: 13%;
+}
+
+.about-section .container-fluid .col h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: var(--mainDarkGrey);
+}
+
+.about-section .container-fluid .first-about-card .mb-3,
+.about-section .container-fluid .second-about-card .mb-3 {
+    border: none;
+    outline: none;
+}
